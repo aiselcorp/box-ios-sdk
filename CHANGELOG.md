@@ -1,6 +1,14 @@
 Changelog
 =========
 
+## v4.4.1 [2021-05-20]
+
+__Breaking Changes:__
+
+__New Features and Enhancements:__
+
+- Expands the file size that can be specified in the parameters when creating an upload session from Int32 to Int64.
+
 ## v4.4.0 [2021-04-20]
 
 __Breaking Changes:__

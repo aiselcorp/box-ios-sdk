@@ -21,7 +21,7 @@ public extension FilesModule {
     func createUploadSession(
         folderId: String,
         fileName: String,
-        fileSize: Int32,
+        fileSize: Int64,
         completion: @escaping Callback<UploadSession>
     ) {
         let json: [String: Any] = [
@@ -47,7 +47,7 @@ public extension FilesModule {
     func createUploadSessionForNewVersion(
         ofFile fileId: String,
         fileName: String? = nil,
-        fileSize: Int32,
+        fileSize: Int64,
         completion: @escaping Callback<UploadSession>
     ) {
         var json = [String: Any]()
